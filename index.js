@@ -1,4 +1,3 @@
-console.log("🚀 INDEX INICIADO");
 
 
 import express from "express";
