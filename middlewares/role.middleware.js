@@ -1,9 +1,8 @@
-console.log("🔥 role.middleware cargado");
+
 
 import { db } from "../config/firebase.js";
 import { doc, getDoc } from "firebase/firestore";
 
-console.log("🔥 getDoc es:", getDoc);
 
 export async function isAdmin(req, res, next) {
   try {
